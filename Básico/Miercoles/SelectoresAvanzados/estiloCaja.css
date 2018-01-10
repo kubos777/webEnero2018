@@ -1,0 +1,33 @@
+div{
+	/*display: inline-block;*/
+	width: 150px;
+	background: white;
+	\*float: right;*\
+\*
+static: posicionamiento por defecto;
+absolute: a partir de su contenedor padre, se va a posicionar;
+relative: a partir de donde la insertamos vamos a manipular su posicion;
+fixed: poner un elemento en una posición de donde no se moverá ni siquiera al bajar mouse;
+*\
+	position: 
+}
+
+.border{
+	background: #2C2EC1;
+	border: 10px dotted  #000000;
+	position: absolute;
+	top=50px;
+	left: 50px;
+}
+
+.padding{
+	padding: 10px 30px;
+	background-color: #0F7C3F;
+
+}
+
+.margin{
+	background-color: #DA1D1D;
+	padding: 30px 40px 50px;
+
+}
