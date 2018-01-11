@@ -1,0 +1,50 @@
+/*Selector de hijos*/
+
+p>span{
+	color:#3BB3AD;
+	font-size: 16px;
+}
+
+div>h2{
+	text-align: right;
+}
+
+/*Selector de adyacencia*/
+h4{
+	color:blue;
+}
+h3+h4{
+margin-left: 50px;
+}
+
+p+p{
+	margin-left: 100px;
+}
+
+/*Selector de atributos*/
+.nada{
+
+}
+
+a[href]{
+	color: green;
+}
+
+a[class="nada"]{
+	color: orange;
+}
+
+a[class~="otraClase"]{
+	margin-left: 200px;
+}
+*[lang=en]{
+	margin: 100px;
+	color:purple;
+	text-align: center;
+}
+
+*[lang|=es]{
+	margin:100px;
+	color: gray;
+	text-align: right;
+}
