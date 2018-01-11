@@ -1,0 +1,42 @@
+/*
+1 parámetro-->todos los lados
+2 parametros-->1)verticales 2)horizontales
+3 parámetros-->superior,horizontales,inferior
+4 parámetros--->sentido manecillas del reloj
+*/
+
+/*ctrl shift c*/
+
+div{
+
+	/*Por defecto ya son elementos de bloque*/
+	display: inline-block;
+	background-color: white;
+	width: 400px;
+ /*Porcentajes y pixeles */
+	/*height: 300px;*/ /*Se recomienda que crezca respecto al contenido*/
+}
+
+
+.border{
+	background-color:#EACFCF;
+	border: 10px solid #000000;
+	/*solid, dashed*/
+
+}
+
+
+.margin{
+	/*Margen externo: */
+	background-color: #F36969;
+	margin: 20px 10px;
+}
+
+
+.padding{
+	/*Margen interno*/
+	padding: 50px; /*Enfasis en cuidar el tamaño real de las formas que se tienen*/
+	/*Sumar magin o padding a la altura y anchura deseados*/
+	background-color: #FF7C7C
+}
+
