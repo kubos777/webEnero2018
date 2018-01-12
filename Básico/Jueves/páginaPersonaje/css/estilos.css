@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: 'Pacifico';
+    src: local('Pacifico'),
+         url('../fonts/Pacifico.ttf') format('truetype');
+}
+
+/*
+Inline: strong, b, span.
+Block: h1-h6, p, div;
+*/
+
+body{
+  margin: 0; /*al final*/
+  font-family: Pacifico; /*al final*/
+  background: #f1f1f1;
+}
+
+h1{
+  color: #fff;
+}
+
+
+.titulos-principales{
+  background: black;
+}
+
+ul{
+  /*Quita los bullets de las listas*/
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+a:hover{
+  color: #ccc;
+}
+
+.menu-navegacion{
+  text-align: center;
+}
+
+li{
+  display: inline;
+}
+
+.menu-navegacion a{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  background: black;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+li:hover a{
+  background: #ccc;
+}
+
+li.active a{
+  background: #ccc;
+}
+
+h1,h2{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.informacion-personal{
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: center;
+}
+
+.informacion-justificada{
+  width: 30%;
+  border: 1px solid #ccc;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: justify;
+}
+
+.informacion-personal ul{
+  list-style-type: disc;
+}
+
+.footer{
+  padding:20px;
+  height: 60px;
+  background: gray;
+}
+
+#doble{
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 20px;
+}
+
+hr{ 
+   border: 2px dashed #ccc; /*dotted*/ 
+   width: 50%;
+}
+
