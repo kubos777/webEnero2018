@@ -1,0 +1,41 @@
+.header {
+    background-color: #009688;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    margin: 0px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.info {
+  text-align: justify;
+}
+
+
+/* Para celulares: */
+@media only screen and (max-width: 768px) {
+    .col-3 {width: 100%;      padding: 15px;
+}
+    .col-6 {width: 100%;      padding: 15px;
+}
+}
+
+/* Para escritorio: */
+@media only screen and (min-width: 768px) {
+    .col-3 {width: 24%; float: left; padding: 5px;}
+    .col-6 {width: 74%; float: left; padding: 5px;}
+}

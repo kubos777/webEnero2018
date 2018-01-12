@@ -7,12 +7,12 @@ div {
 	margin:5px;
 }
 
-/*.cajaPadre {
+.cajaPadre {
 	width: 500px;
 	height: 500px;
 	background: #000000;
 	position: relative; //El elemento queda dentro del elemento padre y el absolute cuenta desde dentro del padre
-}*/
+}
 
 .caja {
 	/*position: static;Es el posicionamiento por defecto*/
@@ -20,12 +20,8 @@ div {
 	/*position: absolute;*/ /*Se modifica desde el inicio de la pantalla*/
 	/*position: fixed;*/ /*No se mueve a pesar del scroll, se ubica desde el inicio de la pantalla*/
 	/*relative:-20px;*/
-	position:relative;
-	top: 50px;
-	bottom: 0px;
-	right: 0px;
-	left: 50px;
-
+	margin: auto;
+	left:50%;
 }
 
 

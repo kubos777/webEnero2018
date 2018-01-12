@@ -1,0 +1,46 @@
+p{
+  width: 80%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px) {
+	body{
+		background-color: #e0f2f1;
+	}
+	h1{
+		font-size: 40px;
+		color: red;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+	body{
+		background-color: #4db6ac;
+	}
+	h1{
+		font-size: 30px;
+		color: blue;
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+	body{
+		background-color: #00897b;
+		color: #fff;
+	}
+	h1{
+		font-size: 20px;
+		color: pink;
+	}
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+	body{
+		background-color: #004d40;
+		color: #fff;
+	}
+	h1{
+		font-size: 20px;
+		color: yellow;
+	}
+}
