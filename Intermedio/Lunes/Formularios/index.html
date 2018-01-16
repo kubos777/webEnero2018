@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form>
+		<!--Elementos de entrada
+			text: Ingresar texto, ningún formato específico
+			radio: Seleccionar entre varias opciones
+			submit: de tipo envío, trabaja usualmente en conjunto con el back-end
+			password: oculta lo escrito
+			checkbox: retorna un true o false
+			reset: todo el formulario se limpia al pulsar este botón
+		--> 
+		<h3>Llena tus datos</h3>
+		<span class="datos">Nombre:</span><input type="text"><br>
+		<span class="datos">Apellido:</span><input type="text"><br>
+		<span>Ingresa tu contraseña: </span><input type="password"><br>
+		<span>Género: </span><br>
+		<!--probar primero sin el atrib name-->
+		<div class="genero">
+		<input type="radio" value="Femenino" name="genero"><span>Femenino</span><br>
+		<input type="radio" value="Masculino" name="genero"><span>Masculino</span><br>
+		</div>
+		<span>Incluir mi foto</span><input type="file" name="foto"><br>
+		<div class="condiciones"><input type="checkbox" name="terminos" value="true"><span>Acepto términos y condiciones</span></div>
+		<input type="submit" value="Registrar">
+		<input type="reset" name="limpiar" value="Borrar datos">
+		
+
+	</form>
+</body>
+</html>

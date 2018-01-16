@@ -1,0 +1,29 @@
+h3{
+	padding: 0px;
+	margin: 0px;
+	background: #0A1257;
+	color: #FFEDED;
+	text-align: center;
+}
+form{
+	width: 40%;
+	border: 1px solid #0A1257;
+	position: fixed;
+	top: 20%;
+	left: 30%;
+}
+span{
+		margin: 40px 10px;
+}
+span,input{
+	font-style: Verdana;
+	font-size: 15px;
+
+}
+.genero{
+	margin-left: 50px;
+}
+
+.datos{
+	margin-right: 20%;
+}

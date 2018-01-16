@@ -1,0 +1,28 @@
+table, th, td{
+	border:1px solid #D0521D;
+	/*border-collapse: collapse;  //por defecto separate*/
+	border-collapse: collapse;
+	text-align: left;
+}
+
+th,td{
+	padding: 5px;
+}
+
+img{
+	width: 100px;
+	height: 80px;
+}
+
+.tabla1 tr:nth-child(1){
+	background-color: #FFA453;
+}
+
+.tabla1 tr:nth-child(3){
+	background: #FFCC8E;
+}
+
+.misTablas{
+	width: 45%;
+	display:inline-block;
+}

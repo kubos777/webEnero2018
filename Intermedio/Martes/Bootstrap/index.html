@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Bootstrap Grid</title>
+
+</head>
+<body>
+	
+
+	<div class="container-fluid">
+		<h3>Ejemplo 1: dimeniones automáticas, anchura igual</h3>
+		<div class="row">
+			<div class="col">1 de 3</div>
+			<div class="col">2 de 3</div>
+			<div class="col">3 de 3</div>
+		</div>
+		<h3>Ejemplo 2: Dimensionar anchura de un solo un div</h3>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-6">Mi tamaño es de 6</div>
+			<div class="col"></div>
+			<div class="col"></div>
+		</div>
+		<h4>Ejemplo 3: anchura del mismo tamaño, multi-columna</h4>
+		<div class="row">
+			<div class="col">col</div>
+			<div class="col">col</div>
+			<div class="w-100"></div>
+			<div class="col">col</div>
+			<div class="col">col</div>
+		</div>
+
+		<h4>Ejemplo 4: mobile y desktop</h4>
+
+<div class="row">
+	<div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+	<div class="col-xs-12 col-md-4">.col-xs-12 .col-md-4</div>
+	</div>	
+		<h4>Ejemplo 5: alineamiento vertical </h4>
+		<div class="row">
+			<div class="col-sm-4 align-self-start">
+				One of three columns
+			</div>
+			<div class="col-sm-4 align-self-center">
+				One of three columns
+			</div>
+			<div class="col-sm-4 align-self-end">
+				One of three columns
+			</div>
+		</div>
+		<!--Partir en dos un row-->
+
+	</div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</html>

@@ -1,0 +1,13 @@
+/*[nombre_atributo|=valor]
+valores que empiezan con valor y estan separados por guion
+*/
+/*
+.row{
+	height: 150px;
+}*/
+div[class|="col"] {
+	padding-top:10px;
+	padding-bottom: 10px;
+	background: rgba(86,61,124,.15);
+	border: 1px solid rgba(86,61,124,.2) 
+}
