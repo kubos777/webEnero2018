@@ -1,0 +1,5 @@
+¿Qué es javascript?
+¿Javascript es un programa compilado?
+¿Cómo declaro una variable en javascript?
+¿Escribe 3 operadores aritmeticos
+¿Escribe 3 operadores lógicos
