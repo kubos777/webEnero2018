@@ -1,0 +1,69 @@
+/*Figuras y transformaciones*/
+.cuadrado{
+	width: 100px;
+	height: 100px;
+	background-color: #BF5078;
+	border: 2px solid black;
+	/*transform: translate(100px,100px)*/
+}
+
+.rectangulo{
+	width: 100px;
+	height: 50px;
+	background-color: #BF5078;
+	border: 2px solid black;
+	/*transform: translate(100px,100px);*/
+}
+.rombo{
+	width: 100px;
+	height: 100px;
+	background-color: #BF5078;
+	border: 2px solid black;
+	margin-left: 20px;
+	transform: rotate(45deg);
+
+}
+
+.triangulo{
+	 width: 0;
+     height: 0;
+     border-right: 100px solid yellow;
+     border-top: 100px solid green;
+     border-left: 100px solid black;
+     border-bottom: 100px solid #BF5078;
+}
+.paralelogramo {
+     width: 150px; 
+     height: 100px; 
+     margin-left: 20px;
+     border: 3px solid black; 
+     background: #BF5078;
+     transform: skew(20deg);
+}
+
+.circulo{
+     width: 100px;
+     height: 100px;
+     border-radius: 50% ;
+     background: #BF5078;
+}
+
+.semi-circulo{
+	 width: 100px; 
+     height: 50px; 
+     border: 2px solid black; 
+     background: #BF5078;
+     border-radius: 100px 100px 0 0;
+}
+
+.pacman{
+	width:0;
+     height:0;
+     border-right: 50px solid transparent;
+     border-top: 50px solid yellow;
+     border-left: 50px solid yellow;
+     border-bottom: 50px solid yellow;
+     border-radius: 100%;
+     transform: scale(200px,200px);
+
+}

@@ -1,0 +1,106 @@
+/*Transiciones*/
+/*Sintaxis:
+transition: <propiedad> <duracion> <funcion-tiempo> <retraso>;*/
+
+/*Quitamos la 'decoración al link, y pintamos de azul'*/
+a {
+    text-decoration: none;
+    color: blue;
+}
+/*Si nos posicionamos en el link, cambia a color rojo*/
+a:hover {
+    color: red;
+}
+/*Aplicamos la transición de la propiedad color con una duración
+de 0.8s con velocidad linear y 0.2s de retraso*/
+a {
+    transition: color 0.8s linear 0.2s;
+}
+
+/* Esos cuatro parametros también los podemos escribir de la siguiente forma:
+a {
+    transition-property: text-decoration;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+*/
+/*
+Compatibilidad con navegadores
+.ejemplo {
+    Chrome, Safari
+    -webkit-transition: width 8ms linear 1s;
+    Firefox
+    -moz-transition: width 8ms linear 1s;
+    Opera
+    -o-transition: width 8ms linear 1s;
+    Standard
+    transition: width 8ms linear 1s;
+}
+*/
+div {
+    width: 100px;
+    height: 50px;
+    background: #f92672;
+    color: white;
+    font-weight: bold;
+    transition: width 1s, background 1s;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div1 {
+    transition-timing-function: linear;
+}
+#div2 {
+    transition-timing-function: ease;
+}
+#div3 {
+    transition-timing-function: ease-in;
+}
+#div4 {
+    transition-timing-function: ease-out;
+}
+#div5 {
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    width: 100px;
+    background: #428bca;
+}
+
+
+
+.transition {
+    width: 100px;
+    height: 100px;
+    background: #f92672;
+    transition: width 2s, height 2s, margin 2s;
+    margin: 50px auto 0;
+}
+.transition:hover{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background: #f92672;
+    position: relative;
+    float: left;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+    position: absolute;
+    right: 0;
+    height: 200px;
+    width: 50px;
+    background: #428bca;
+}
+.container:hover .fade-in {
+    opacity: 1;
+}
