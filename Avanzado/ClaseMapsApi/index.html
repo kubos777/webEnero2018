@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- UTF-8 para que reconozca caracteres especiales -->
+  <meta charset="UTF-8">
+  <!-- Título de la página -->
+  <title>ClaseMaps</title>
+  <!-- Logo de la paguina -->
+  <link href="img/logo.png" rel='shortcut icon' type='image/png'>
+  <!-- Links propios de Materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+   <!-- Links a nuestra hoja de estilo -->
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar de nuestra página -->
+    <nav>
+      <div class="nav-wrapper green darken-1" >
+        <a href="index.html" class="brand-logo center"><img class="responsive-img" src="img/logo.png">GoogleMapsApi</a>
+      </div>
+    </nav>
+  </header>
+  <!-- Nuestro Mapá con la clase mapa -->
+  <div id="mapa"></div>
+  <!-- Pié de pág -->
+  <footer class="page-footer green darken-1" style="position:fixed;bottom:0;left:0;width:100%;">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 PROTECO
+        <a class="grey-text text-lighten-4 right" href="http://proteco.mx/cursos">proteco.mx</a>
+      </div>
+    </div>
+  </footer>
+</body>
+  <!-- Script´s propios de Materialize -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Scripts para modificar nuestro mapa de GoogleMapsApi -->
+  <!--Ir cambiando los nombre del js para ver los demas ejemplos-->
+  <script src="js/circulos.js"></script>
+  <!-- Script que nos vincula con GoogleMapsApi, 
+    poner su clave en ...Key=_______&signed_in... -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEbpzxlhY0fTv_cJmIOYNMXkgC20qHZ9A&signed_in=true&callback=initMap"></script>
+</html>
